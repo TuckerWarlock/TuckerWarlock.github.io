@@ -1,0 +1,35 @@
+body {
+    background-color: lightblue;
+}
+  
+h1 {
+    color: rebeccapurple;
+    text-align: left;
+}
+  
+p {
+    font-family: calibri;
+    font-size: 24px;
+}
+
+th, td {
+    border: 2px solid;
+    text-indent: 5px;
+    /* border-collapse: collapse; */
+    border-color: white;
+    background-color: #96D4D4;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+}
+caption{
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+}
+tr,th {
+    height: 100px;
+}
+
