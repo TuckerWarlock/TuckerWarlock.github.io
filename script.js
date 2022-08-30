@@ -1,6 +1,12 @@
 //functions for website
+var styleFlag;
 
-var styleFlag = true;
+if(document.readyState === 'ready' || document.readyState === 'complete') {
+    styleFlag = true;
+}
+else{
+    styleFlag = false;
+}
 
 function displayResult() 
 {
