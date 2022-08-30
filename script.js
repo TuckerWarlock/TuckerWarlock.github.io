@@ -11,3 +11,8 @@ function myFunction()
             x[i].style.display = "none";
         }
 }
+function styleButtonChange() {
+    document.getElementById("list1").style.fontSize = "25px"; 
+    document.getElementById("list1").style.color = "red";
+    document.getElementById("list1").style.backgroundColor = "yellow";
+}

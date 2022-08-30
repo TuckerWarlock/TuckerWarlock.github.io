@@ -40,4 +40,5 @@ tr,th {
 .tableiframe{
     width: 70%;
     height: 50%;
+    border:ridge;
 }
