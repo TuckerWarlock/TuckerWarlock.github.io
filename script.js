@@ -1,3 +1,7 @@
+//functions for website
+
+var styleFlag = true;
+
 function displayResult() 
 {
     document.getElementById("myHeader").innerHTML = "Have a nice day!";
@@ -12,7 +16,18 @@ function myFunction()
         }
 }
 function styleButtonChange() {
-    document.getElementById("list1").style.fontSize = "25px"; 
-    document.getElementById("list1").style.color = "red";
-    document.getElementById("list1").style.backgroundColor = "yellow";
+
+    if (styleFlag){
+        document.getElementById("pageId").style.fontSize = "25px"; 
+        document.getElementById("pageId").style.color = "red";
+        document.getElementById("pageId").style.backgroundColor = "darkgrey";    
+        styleFlag = false;
+    }
+    else{
+        document.getElementById("pageId").style.fontSize = null; 
+        document.getElementById("pageId").style.color = null;
+        document.getElementById("pageId").style.backgroundColor = null;    
+        styleFlag = true;
+    }
 }
+
