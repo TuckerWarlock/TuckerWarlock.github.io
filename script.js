@@ -1,38 +1,28 @@
 //functions for website
-var styleFlag;
+var styleFlag = true;
 
-if(document.readyState === 'ready' || document.readyState === 'complete') {
-    styleFlag = true;
-}
-else{
-    styleFlag = false;
-}
+// if(document.readyState === 'ready' || document.readyState === 'complete') {
+//     styleFlag = true;
+// }
 
-function displayResult() 
-{
-    document.getElementById("myHeader").innerHTML = "Have a nice day!";
-}
-
-function myFunction() 
-{
-    var x = document.getElementsByClassName("city");
-        for (var i = 0; i < x.length; i++) 
-        {
-            x[i].style.display = "none";
-        }
-}
 function styleButtonChange() {
 
     if (styleFlag){
-        document.getElementById("pageId").style.fontSize = "25px"; 
-        document.getElementById("pageId").style.color = "red";
-        document.getElementById("pageId").style.backgroundColor = "darkgrey";    
+        // document.getElementById("pageId").style.fontSize = "25px";
+        document.getElementById("pageId").style.color = "white";
+        document.getElementById("pageId").style.backgroundColor = "black";
+        document.getElementById("changeButton").style.backgroundColor = "white";
+        document.getElementById("changeButton").style.color = "black";
+        document.getElementById("changeButton").textContent = "Light Mode";
         styleFlag = false;
     }
     else{
-        document.getElementById("pageId").style.fontSize = null; 
+        // document.getElementById("pageId").style.fontSize = null;
         document.getElementById("pageId").style.color = null;
-        document.getElementById("pageId").style.backgroundColor = null;    
+        document.getElementById("pageId").style.backgroundColor = null;
+        document.getElementById("changeButton").style.color = null;
+        document.getElementById("changeButton").style.backgroundColor = "black";
+        document.getElementById("changeButton").textContent = "Dark Mode";
         styleFlag = true;
     }
 }
