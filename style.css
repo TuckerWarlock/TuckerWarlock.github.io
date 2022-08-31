@@ -1,5 +1,5 @@
-.content{
-    max-width: 40%;
+.container{
+    max-width: 60%;
     margin:auto;
     background-color: auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -9,6 +9,9 @@ h1 {
 }
 h2 {
     color: darkgray;
+}
+p{
+    width: 70%;
 }
 .tableiframe{
     max-width: 50%;
@@ -39,6 +42,8 @@ tr,th,td {
     color: white;
     font-weight: bold;
     border-radius: 10px;
+    height: 40pt;
+    width: 75pt;
 }
 .profileImage{
     /* height: 20%; */
