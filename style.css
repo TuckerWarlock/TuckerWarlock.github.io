@@ -1,9 +1,16 @@
 body {
-    background-color: #000;
+    background-image: url("/images/cityscape.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.9; /* Adjust the opacity as needed */
     color: #fff;
     font-family: 'Courier New', monospace;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .header {
@@ -34,4 +41,26 @@ body {
   }
   
   /* Add your custom styles for the cyberpunk/neon/synthwave look here */
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 9999;
+  }
   
+  .menu-button a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+  }  
