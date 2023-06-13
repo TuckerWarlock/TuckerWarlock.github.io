@@ -46,7 +46,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 90%;
     background-color: rgba(79, 79, 79, 0.5); /* Adjust the opacity as needed */
     display: flex;
     justify-content: space-between;
