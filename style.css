@@ -46,22 +46,25 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 90%;
-    background-color: rgba(79, 79, 79, 0.5); /* Adjust the opacity as needed */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     z-index: 9999;
+    box-sizing: border-box; /* Add this line */
   }
   
-  .menu-button a {
-    color: #fff;
-    text-decoration: none;
+  .navbar-links {
+    flex-grow: 1; /* Add this line */
+    display: flex; /* Add this line */
+    justify-content: flex-end; /* Add this line */
   }
   
   .navbar-links a {
     color: #fff;
     text-decoration: none;
     margin-left: 10px;
+    white-space: nowrap; /* Add this line */
   }
