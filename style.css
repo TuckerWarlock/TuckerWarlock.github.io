@@ -1,5 +1,5 @@
 body {
-    background-image: url("/images/cityscape.png");
+    background-image: url("/images/cityscape2.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -15,7 +15,7 @@ body {
   }
   
   .header {
-    background-color: #a5ffa5;
+    background-color: #7cff7c;
     padding: 10px;
     text-align: center;
   }
@@ -41,35 +41,48 @@ body {
     margin-bottom: 10px;
   }
   
-  /* Add your custom styles for the cyberpunk/neon/synthwave look here */
   .navbar {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     z-index: 9999;
-    box-sizing: border-box; /* Add this line */
+    box-sizing: border-box;
+  }
+  
+  .menu-button a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar-header {
+    flex-grow: 1;
+    text-align: left;
+    margin-left: 10px;
+  }
+  
+  .navbar-header h1,
+  .navbar-header h3 {
+    margin: 0;
   }
   
   .navbar-links {
-    flex-grow: 1; /* Add this line */
-    display: flex; /* Add this line */
-    justify-content: flex-end; /* Add this line */
+    display: flex;
+    justify-content: flex-end;
   }
   
   .navbar-links a {
     color: #fff;
     text-decoration: none;
     margin-left: 10px;
-    white-space: nowrap; /* Add this line */
-  }
-
-  html {
-    scroll-behavior: smooth;
+    white-space: nowrap;
   }
   
+  .content {
+    padding: 20px;
+  }  
