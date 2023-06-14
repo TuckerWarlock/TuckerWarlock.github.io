@@ -14,12 +14,19 @@ body {
     align-items: center;
   }
   
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
   .header {
+    margin-left: 20px;
     background-color: #7cff7c;
     padding: 10px;
     text-align: center;
   }
-  
+
   .header h1 {
     margin: 0;
   }
