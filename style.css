@@ -30,6 +30,7 @@ body::before {
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1; /* Add this line to make the container appear above the background image */
 }
 
   
